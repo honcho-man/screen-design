@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+    .main,footer {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+        
+    .image-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .hero_wrapper h2 {
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .statistics_banner .stats_single .card .top_heading_wrap .number {
+        font-size: 46px;
+    }
+    .featured_company_new .company_card .card_banner {
+        min-height: 300px;
+        right: 0;
+    }
+    .featured_company_new .company_card {
+        border-radius: 0 !important;
+    }
+    
+    #google_translate_element {
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .funded_companies .company_single .company_logo {
+        margin-bottom: 10px;
+    }
+    .funded_companies .company_single .company_info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .funded_companies .company_single .company_info .company_title {
+        margin-bottom: 10px;
+    }
+    .funded_companies .company_single .company_info .company-data {
+        max-width: 100%;
+        margin-bottom: 10px !important;
+    }
+    .funded_companies .company_single .company_action {
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .funded_companies .company_single .company_info .company-data {
+        max-width: 100%;
+        margin-bottom: 10px !important;
+    }
+}
